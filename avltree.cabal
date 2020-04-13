@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 82dcbc58fcbe9f4b2bfb26ba640f5c3c7c9aab22bb50215c2a465f94ac12f369
+-- hash: 5ab818a91886deb3744d4c89d97bad72724e0c6af0c0e27d84f7f02db0bdc5a1
 
 name:           avltree
 version:        0.1.0.0
@@ -28,6 +28,7 @@ source-repository head
 library
   exposed-modules:
       AVLTree
+      BinaryTree
   other-modules:
       Paths_avltree
   hs-source-dirs:
